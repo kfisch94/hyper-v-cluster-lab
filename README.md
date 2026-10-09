@@ -3,16 +3,16 @@
 **SAIT · Data Center Management and Virtualization (CMPS-368) · October 2023**  
 **Windows Server 2019 · Hyper-V · VMware Workstation · Active Directory · NIC teaming**
 
-I worked on a nested Hyper-V lab in VMware Workstation to explore Windows Server clustering, virtual networking, and shared-storage configuration. I documented the setup with screenshots and a demonstration recording, including the problems I encountered while trying to establish high availability.
+Worked on a nested Hyper-V lab in VMware Workstation to explore Windows Server clustering, virtual networking, and shared-storage configuration. Screenshots and a demonstration recording document the setup, including the problems encountered while trying to establish high availability.
 
 ![Cluster creation wizard showing successful completion](assets/cluster-created.png)
 
 ## My work
 
-- I set up a Windows Server lab with Hyper-V and nested virtual hosts.
-- I created `KFcluster` with `vHost-01` and `vHost-02` in the `VHYPER.COM` lab domain.
-- I configured virtual network adapter teams and documented their adapter states.
-- I captured cluster membership, node availability, quarantine, and storage-connectivity issues during troubleshooting.
+- Set up a Windows Server lab with Hyper-V and nested virtual hosts.
+- Created `KFcluster` with `vHost-01` and `vHost-02` in the `VHYPER.COM` lab domain.
+- Configured virtual network adapter teams and documented their adapter states.
+- Captured cluster membership, node availability, quarantine, and storage-connectivity issues during troubleshooting.
 
 My retained evidence shows configuration progress and troubleshooting. It does not establish a completed, reliable high-availability deployment or successful automatic guest-VM failover.
 
